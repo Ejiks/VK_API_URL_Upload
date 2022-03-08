@@ -53,7 +53,7 @@ def upload_photos():
 if __name__ == '__main__':
     TOKEN = '958eb5d439726565e9333aa30e50e0f937ee432e927f0dbd541c541887d919a7c56f95c04217915c32008'
     USER_ID = '552934290'
-    token_yd = 'AQAAAAAi7pwUAADLW9-DYE8jcUHYrzx-rc1e80k'
+    token_yd = ''
 
     vk = VK_Photos(TOKEN=TOKEN, version='5.131', USER_ID=USER_ID)
     y = yadisk.YaDisk(token=token_yd)
