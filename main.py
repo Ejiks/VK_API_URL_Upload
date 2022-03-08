@@ -1,7 +1,6 @@
 import time
 import requests
 import yadisk
-from pprint import pprint
 from datetime import date
 from progress.bar import IncrementalBar
 
